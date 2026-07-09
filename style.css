@@ -167,3 +167,39 @@ nav ul li{
 }
 
 }
+/* ===== Hover Effects ===== */
+
+.btn:hover{
+    background:#0d2b52;
+    color:#fff;
+    transition:0.3s;
+}
+
+.service-card{
+    transition:0.3s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.15);
+}
+
+nav ul li a:hover{
+    color:#ffc107;
+}
+
+.hero h1{
+    animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
