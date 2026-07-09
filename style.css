@@ -203,3 +203,61 @@ nav ul li a:hover{
         transform:translateY(0);
     }
 }
+/* ===========================
+   PROFESSIONAL HERO SECTION
+=========================== */
+
+.hero{
+    background:linear-gradient(rgba(13,43,82,0.85),rgba(13,43,82,0.85)),
+    url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80');
+    background-size:cover;
+    background-position:center;
+    color:#fff;
+    padding:120px 20px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:25px;
+    font-weight:700;
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:22px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:40px;
+}
+
+.btn{
+    display:inline-block;
+    background:#ffc107;
+    color:#0d2b52;
+    padding:15px 35px;
+    margin:10px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ffffff;
+    color:#0d2b52;
+}
+
+.btn-secondary{
+    background:transparent;
+    color:#fff;
+    border:2px solid #fff;
+}
+
+.btn-secondary:hover{
+    background:#ffc107;
+    color:#0d2b52;
+}
