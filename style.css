@@ -508,3 +508,33 @@ grid-template-columns:1fr;
 .testimonial-card h4{
     color:#0d2b52;
 }
+/* Premium Navigation Upgrade */
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h2{
+    font-size:26px;
+    letter-spacing:1px;
+}
+
+.tagline{
+    font-size:13px;
+    margin-top:5px;
+}
+
+.quote-btn{
+    background:#ffc107;
+    color:#0d2b52 !important;
+    padding:10px 22px;
+    border-radius:30px;
+    font-weight:700;
+}
+
+.quote-btn:hover{
+    background:white;
+    color:#0d2b52 !important;
+}
