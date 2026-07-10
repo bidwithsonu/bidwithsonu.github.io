@@ -790,3 +790,20 @@ grid-template-columns:1fr;
 }
 
 }
+/* Logo Design */
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+
+.logo h2{
+    margin:0;
+}
