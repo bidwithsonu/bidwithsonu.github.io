@@ -538,3 +538,58 @@ grid-template-columns:1fr;
     background:white;
     color:#0d2b52 !important;
 }
+/* Premium Services Section */
+
+.services-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+
+.service-card{
+
+    background:#ffffff;
+    padding:35px 25px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s ease;
+    border-top:4px solid #ffc107;
+
+}
+
+
+.service-card:hover{
+
+    transform:translateY(-10px);
+    box-shadow:0 18px 35px rgba(0,0,0,0.15);
+
+}
+
+
+.service-card i{
+
+    font-size:45px;
+    color:#0d2b52;
+    margin-bottom:20px;
+
+}
+
+
+.service-card h3{
+
+    color:#0d2b52;
+    margin-bottom:15px;
+    font-size:22px;
+
+}
+
+
+.service-card p{
+
+    color:#555;
+    line-height:1.7;
+    font-size:15px;
+
+}
