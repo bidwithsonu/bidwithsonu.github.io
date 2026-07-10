@@ -35,6 +35,14 @@ header .container{
 .logo h2{
     color:#ffc107;
 }
+.tagline{
+    color:#ffffff;
+    font-size:14px;
+    margin-top:4px;
+    letter-spacing:1px;
+    font-weight:400;
+    opacity:0.9;
+}
 
 nav{
     display:flex;
